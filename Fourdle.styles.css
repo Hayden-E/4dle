@@ -1,0 +1,227 @@
+/* /Layout/MainLayout.razor.rz.scp.css */
+.page[b-qbl2dwg544] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-qbl2dwg544] {
+    flex: 1;
+}
+
+.sidebar[b-qbl2dwg544] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-qbl2dwg544] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-qbl2dwg544]  a, .top-row[b-qbl2dwg544]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-qbl2dwg544]  a:hover, .top-row[b-qbl2dwg544]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-qbl2dwg544]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-qbl2dwg544] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-qbl2dwg544]  a, .top-row[b-qbl2dwg544]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-qbl2dwg544] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-qbl2dwg544] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-qbl2dwg544] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-qbl2dwg544]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-qbl2dwg544], article[b-qbl2dwg544] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Pages/Components/GuessComponent.razor.rz.scp.css */
+/* CSS for GuessComponent component */
+
+.guess-container[b-jin6z2qsjg] {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.guess-letter[b-jin6z2qsjg] {
+    color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    border: solid;
+    border-color: #101010;
+    border-radius: 16px;
+}
+
+    .guess-letter.green[b-jin6z2qsjg] {
+        background-color: #509d5a;
+    }
+
+    .guess-letter.grey[b-jin6z2qsjg] {
+        background-color: #5e5e5e;
+    }
+
+    .guess-letter.yellow[b-jin6z2qsjg] {
+        background-color: #eac638;
+    }
+
+    .guess-letter p[b-jin6z2qsjg] {
+        margin: 0;
+        line-height: 1;
+    }
+/* /Pages/Home.razor.rz.scp.css */
+/* CSS for Home component */
+
+*[b-3zikkdij6t] {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.overlay[b-3zikkdij6t] {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+    .overlay p[b-3zikkdij6t] {
+
+    }
+
+.free-attempt[b-3zikkdij6t] {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.free-attempt p[b-3zikkdij6t] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+.title[b-3zikkdij6t] {
+    font-weight: bold;
+    text-align: center;
+}
+
+.game-container[b-3zikkdij6t] {
+    width: auto;
+    height: 100%;
+
+    /*background-color: #ddd;*/
+    border-radius: 16px;
+
+    flex-direction: column;
+
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.game-column[b-3zikkdij6t] {
+    display: flex;
+    gap: 20px;
+}
+
+.invalid-title[b-3zikkdij6t] {
+    margin-top: 1rem;
+}
+
+.input-area[b-3zikkdij6t] {
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-area input[b-3zikkdij6t] {
+    border-radius: 10px;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.input-area p[b-3zikkdij6t] {
+    font-size: 1.5rem;
+}
+
+.input-area button[b-3zikkdij6t] {
+    
+    display: flex;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    border-width: 0px;
+    background-color: #84cc62;
+    color: white;
+    border-radius: 0.5rem;
+    width: 20vh;
+    height: 5vh;
+
+    transition: 0.2s;
+}
+
+    .input-area button:hover[b-3zikkdij6t] {
+        background-color: #6fa955;
+        transform: scale(1.05);
+    }
+
+@media (maxwidth: 700px) 
+{
+    .overlay[b-3zikkdij6t] {
+        position: relative;
+    }
+}
