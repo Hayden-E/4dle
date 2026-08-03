@@ -115,6 +115,22 @@ main[b-qbl2dwg544] {
         margin: 0;
         line-height: 1;
     }
+
+@media (max-width: 700px) {
+    .guess-letter[b-jin6z2qsjg] {
+        color: #e7e7e7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        width: 3rem;
+        height: 3rem;
+        margin: 0.25rem;
+        border: solid;
+        border-color: #101010;
+        border-radius: 16px;
+    }
+}
 /* /Pages/Home.razor.rz.scp.css */
 /* CSS for Home component */
 
@@ -131,10 +147,6 @@ main[b-qbl2dwg544] {
     justify-content: center;
     align-content: center;
 }
-
-    .overlay p[b-3zikkdij6t] {
-
-    }
 
 .free-attempt[b-3zikkdij6t] {
     display: flex;
@@ -219,9 +231,14 @@ main[b-qbl2dwg544] {
         transform: scale(1.05);
     }
 
-@media (maxwidth: 700px) 
-{
-    .overlay[b-3zikkdij6t] {
-        position: relative;
+@media (max-width: 700px) {
+    .invalid-title[b-3zikkdij6t] {
+        margin-top: .5rem;
+    }
+
+    .free-attempt p[b-3zikkdij6t] {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-top: .5rem;
     }
 }
