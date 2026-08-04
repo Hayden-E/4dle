@@ -1,0 +1,1 @@
+Knock-off Wordle built in .NET 10 using Blazor, HTML, and CSS. 4 letter words, 4 total guesses, and a all-new twist: a daily free guess. Completely static using the number of days since Jan. 1st, 1970, as a seed to generate everything randomly
